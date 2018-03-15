@@ -26,7 +26,7 @@ class MyStyle(BoxStyle._Base):
         """
 
         self.pad = pad
-        super().__init__()
+        super(MyStyle, self).__init__()
 
     def transmute(self, x0, y0, width, height, mutation_size):
         """

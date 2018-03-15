@@ -74,9 +74,16 @@ Glossary
       features of PyGObject.  However Matplotlib does not use any of these
       missing features.
 
+  pygtk
+      `pygtk <http://www.pygtk.org/>`_ provides python wrappers for
+      the :term:`GTK` widgets library for use with the GTK or GTKAgg
+      backend.  Widely used on linux, and is often packages as
+      'python-gtk2'
+
   PyGObject
-      `PyGObject <http://www.pygtk.org/>`_ provides Python wrappers for the
-      :term:`GTK` widgets library
+      Like :term:`pygtk`, `PyGObject <http://www.pygtk.org/>` provides
+      python wrappers for the :term:`GTK` widgets library; unlike pygtk,
+      PyGObject wraps GTK3 instead of the now obsolete GTK2.
 
   pyqt
       `pyqt <https://wiki.python.org/moin/PyQt>`_ provides python

@@ -58,6 +58,8 @@ def _check_deps():
              "numpydoc": 'numpydoc',
              "PIL.Image": 'pillow',
              "sphinx_gallery": 'sphinx_gallery'}
+    if sys.version_info < (3, 3):
+        names["mock"] = 'mock'
     missing = []
     for name in names:
         try:
@@ -153,7 +155,7 @@ master_doc = 'contents'
 project = 'Matplotlib'
 copyright = ('2002 - 2012 John Hunter, Darren Dale, Eric Firing, '
              'Michael Droettboom and the Matplotlib development '
-             'team; 2012 - 2018 The Matplotlib development team')
+             'team; 2012 - 2017 The Matplotlib development team')
 
 # The default replacements for |version| and |release|, also used in various
 # other places throughout the built documents.

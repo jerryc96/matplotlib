@@ -509,6 +509,8 @@ Interactive
    Axes.contains_point
 
    Axes.get_cursor_data
+   Axes.get_cursor_props
+   Axes.set_cursor_props
 
 Children
 ========

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 r"""
 =================================
 Using accented text in matplotlib
@@ -12,6 +13,7 @@ e.g., to make an overbar you do \bar{o} or to make an o umlaut you do
 \^y
 
 """
+from __future__ import unicode_literals
 import matplotlib.pyplot as plt
 
 # Mathtext demo
